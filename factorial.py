@@ -10,7 +10,7 @@ def sum_factorial():
     factorial_list = [factorial(i) for i in range(50)]
     result = sum(factorial_list)
     
-    print("Final SUM is {}".format(result))
+    print("Final SUM {}".format(result))
     return result
 
 if __name__ == "__main__":
